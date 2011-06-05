@@ -1,0 +1,15 @@
+title: Kerryck Jones
+author: Kerryck Jones
+description: General hackery for Kerryck Jones!
+pygments: true
+
+thingsi:
+    - name: things i do
+      url: /do.html
+    
+    - name: things i make
+      url: /make.html
+      
+    - name: my contact
+      url: /contact.html
+      

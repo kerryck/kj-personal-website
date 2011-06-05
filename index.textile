@@ -1,0 +1,13 @@
+---
+layout: default
+permalink: /
+---
+
+h2. Hello World!
+
+I'm Kerryck Jones, a software engineering student at the University of Waterloo. I'm currently hacking away on Javascript and other web wizardy work @ Inkling.
+
+This website will be devoted to unleashing some of my ideas and projects onto the world. It's not much now, but there will be much more to come.
+
+If you have any questions hit me up at me@kerryck.com
+

@@ -1,0 +1,159 @@
+/* line 14, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../../../../usr/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+@font-face {
+  font-family: Purisa;
+  src: url(/resources/fonts/Purisa.ttf) format("truetype");
+}
+
+/* line 13, ../_sass/main.scss */
+html {
+  height: 100%;
+}
+
+/* line 15, ../_sass/main.scss */
+body {
+  background-color: #EDEFF4;
+  height: 100%;
+  text-align: center;
+}
+/* line 20, ../_sass/main.scss */
+body #content {
+  text-align: left;
+  width: 720px;
+  margin: 0 auto;
+  clear: both;
+  font-size: 20px;
+  font-family: "Trebuchet MS", Georgia, Verdana, Arial, sans-serif;
+  background: white;
+  padding: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: darkgrey 1px 1px 5px 0;
+  -webkit-box-shadow: darkgrey 1px 1px 5px 0;
+  -o-box-shadow: darkgrey 1px 1px 5px 0;
+  box-shadow: darkgrey 1px 1px 5px 0;
+}
+/* line 32, ../_sass/main.scss */
+body #content p {
+  text-indent: 4em;
+  line-height: 1.5em;
+  padding-bottom: 1em;
+}
+
+/* line 40, ../_sass/main.scss */
+header {
+  font-family: Purisa;
+}
+/* line 41, ../_sass/main.scss */
+header div {
+  width: 150px;
+  margin: 0 5%;
+}
+/* line 46, ../_sass/main.scss */
+header div.name {
+  float: left;
+  font-size: 150%;
+  padding: 1.5em 0;
+}
+/* line 52, ../_sass/main.scss */
+header div.bicepts {
+  float: right;
+  height: 116px;
+  background-image: url("../img/HTML5cepts_small.png");
+}
+/* line 58, ../_sass/main.scss */
+header nav {
+  font-size: 18px;
+  padding-top: 3em;
+  display: inline-block;
+}
+/* line 62, ../_sass/main.scss */
+header nav a {
+  color: black;
+}
+
+/* line 70, ../_sass/main.scss */
+footer {
+  font-size: 10px;
+  color: grey;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 3px;
+}
+
+/* line 80, ../_sass/main.scss */
+mark {
+  background: rgba(255, 0, 0, 0);
+  -moz-transition-property: background 1s ease-in;
+  -webkit-transition-property: background 1s ease-in;
+  -o-transition-property: background 1s ease-in;
+  transition-property: background 1s ease-in;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}

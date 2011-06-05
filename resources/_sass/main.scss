@@ -1,0 +1,85 @@
+@import "compass/reset/utilities";
+@import "compass/css3/transition";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+
+@include global-reset;
+
+@font-face {
+  font-family: Purisa;
+  src: url(/resources/fonts/Purisa.ttf) format("truetype");
+}
+
+html { height: 100%; }
+
+body {
+    background-color: #EDEFF4;
+    height: 100%;
+    text-align: center;
+    
+    #content{
+        text-align: left;
+        width: 720px;
+        margin: 0 auto;
+        clear: both;
+        font-size: 20px;
+        font-family: "Trebuchet MS", Georgia, Verdana, Arial, sans-serif;
+        background: white;
+
+        padding: 20px;
+        @include border-radius(10px);
+        @include box-shadow(darkgrey);
+        p {
+            text-indent: 4em;
+            line-height: 1.5em;
+            padding-bottom: 1em;
+        }
+    }
+}
+
+header {
+    div {
+        width: 150px;
+        margin: 0 5%;
+    }
+
+     div.name {
+        float: left;
+        font-size: 150%;
+        padding: 1.5em 0;
+    }
+    
+    div.bicepts {
+        float: right;
+        height: 116px;
+        background-image: url('../img/HTML5cepts_small.png');
+    }
+    
+    nav {
+        font-size:18px;
+        padding-top: 3em;
+        display: inline-block;
+        a {
+            color: black;  
+        }
+    }
+    
+    font-family: Purisa;
+}
+
+footer {
+    font-size: 10px;
+    color: grey;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 3px;
+}
+
+mark {
+    background: rgba(255, 0, 0, 0);
+    @include transition(background 1s ease-in);
+}
+
+
