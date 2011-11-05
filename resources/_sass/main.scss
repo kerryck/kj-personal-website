@@ -16,7 +16,7 @@ body {
     background-color: #EDEFF4;
     height: 100%;
     text-align: center;
-    
+
     #content{
         text-align: left;
         width: 720px;
@@ -48,32 +48,28 @@ header {
         font-size: 150%;
         padding: 1.5em 0;
     }
-    
+
     div.bicepts {
         float: right;
         height: 116px;
         background-image: url('../img/HTML5cepts_small.png');
     }
-    
+
     nav {
         font-size:18px;
         padding-top: 3em;
         display: inline-block;
         a {
-            color: black;  
+            color: black;
         }
     }
-    
+
     font-family: Purisa;
 }
 
 footer {
     font-size: 10px;
     color: grey;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
     padding: 3px;
 }
 
