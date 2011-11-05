@@ -80,15 +80,40 @@ body {
   text-align: center;
 }
 /* line 20, ../_sass/main.scss */
-body #content {
-  text-align: left;
-  width: 720px;
-  margin: 0 auto;
+body section {
   clear: both;
+  width: 740px;
+  margin: 0 auto;
+  text-align: left;
+}
+/* line 26, ../_sass/main.scss */
+body section .link-list {
+  font-family: Purisa;
+  width: 17%;
+  float: left;
+  font-size: 85%;
+}
+/* line 32, ../_sass/main.scss */
+body section .link-list li {
+  padding-left: 2em;
+}
+/* line 34, ../_sass/main.scss */
+body section .link-list li a {
+  color: black;
+  text-decoration: none;
+}
+/* line 39, ../_sass/main.scss */
+body section .link-list li:first-child {
+  padding-left: 0px;
+}
+/* line 44, ../_sass/main.scss */
+body section #content {
+  float: right;
+  width: 77%;
   font-size: 20px;
   font-family: "Trebuchet MS", Georgia, Verdana, Arial, sans-serif;
   background: white;
-  padding: 20px;
+  padding: 3%;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
@@ -100,53 +125,54 @@ body #content {
   -o-box-shadow: darkgrey;
   box-shadow: darkgrey;
 }
-/* line 32, ../_sass/main.scss */
-body #content p {
+/* line 55, ../_sass/main.scss */
+body section #content p {
   text-indent: 4em;
   line-height: 1.5em;
   padding-bottom: 1em;
 }
 
-/* line 40, ../_sass/main.scss */
+/* line 64, ../_sass/main.scss */
 header {
   font-family: Purisa;
 }
-/* line 41, ../_sass/main.scss */
+/* line 65, ../_sass/main.scss */
 header div {
   width: 150px;
   margin: 0 5%;
 }
-/* line 46, ../_sass/main.scss */
+/* line 70, ../_sass/main.scss */
 header div.name {
   float: left;
   font-size: 150%;
   padding: 1.5em 0;
 }
-/* line 52, ../_sass/main.scss */
+/* line 76, ../_sass/main.scss */
 header div.bicepts {
   float: right;
   height: 116px;
   background-image: url("../img/HTML5cepts_small.png");
 }
-/* line 58, ../_sass/main.scss */
+/* line 82, ../_sass/main.scss */
 header nav {
   font-size: 18px;
   padding-top: 3em;
   display: inline-block;
 }
-/* line 62, ../_sass/main.scss */
+/* line 86, ../_sass/main.scss */
 header nav a {
   color: black;
 }
 
-/* line 70, ../_sass/main.scss */
+/* line 94, ../_sass/main.scss */
 footer {
+  clear: both;
   font-size: 10px;
   color: grey;
   padding: 3px;
 }
 
-/* line 76, ../_sass/main.scss */
+/* line 101, ../_sass/main.scss */
 mark {
   background: rgba(255, 0, 0, 0);
   -moz-transition: background 1s ease-in;

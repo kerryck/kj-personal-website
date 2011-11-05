@@ -25,9 +25,22 @@
         </div>
 
     </header>
-    <div id="content">
+    <section>
+        <ul class='link-list'>
+        <li>Find me on:</li>
+        {% for link in site.sociallinks %}
+            <li>
+            <a href="{{link.url}}">
+                <img src="/resources/img/{{link.img}}" alt="{{link.name}}"/>
+                {{link.name}}
+            </a>
+            </li>
+        {% endfor %}
+    </ul>
+    <article id="content">
         {{content}}
-    </div>
+    </article>
+    </section>
     <footer>Last updated: {{ site.time | date: "%B %d, %Y"}}</footer>
     <script src="/resources/js/links.js" type="text/javascript"></script>
 </body>

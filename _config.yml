@@ -14,3 +14,27 @@ thingsi:
     - name: my contact
       url: /contact.html
 
+sociallinks:
+    - name: Twitter
+      url: http://www.twitter.com/kerryck
+      img: twitter-favicon.png
+
+    - name: GitHub
+      url: http://www.github.com/kerryck
+      img: github-favicon.png
+
+    - name: Last.fm
+      url: http://www.last.fm/user/kerryck
+      img: lastfm-favicon.png
+
+    - name: Tumblr
+      url: http://thankfulinternet.tumblr.com/
+      img: tumblr-favicon.png
+
+    - name: Facebook
+      url: http://www.facebook.com/kerryck
+      img: facebook-favicon.png
+
+    - name: Linkedin
+      url: http://ca.linkedin.com/in/kerryckjones
+      img: linkedin-favicon.png

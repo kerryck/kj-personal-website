@@ -17,24 +17,48 @@ body {
     height: 100%;
     text-align: center;
 
-    #content{
-        text-align: left;
-        width: 720px;
-        margin: 0 auto;
+    section {
         clear: both;
-        font-size: 20px;
-        font-family: "Trebuchet MS", Georgia, Verdana, Arial, sans-serif;
-        background: white;
+        width: 740px;
+        margin: 0 auto;
+        text-align: left;
 
-        padding: 20px;
-        @include border-radius(10px);
-        @include box-shadow(darkgrey);
-        p {
-            text-indent: 4em;
-            line-height: 1.5em;
-            padding-bottom: 1em;
-        }
-    }
+        .link-list {
+            font-family: Purisa;
+            width: 17%;
+            float: left;
+            font-size: 85%;
+
+            li {
+                padding-left: 2em;
+                a {
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+            li:first-child {
+                padding-left: 0px;
+            }
+        } // .link-list
+
+        #content {
+            float: right;
+            width: 77%;
+
+            font-size: 20px;
+            font-family: "Trebuchet MS", Georgia, Verdana, Arial, sans-serif;
+            background: white;
+
+            padding: 3%;
+            @include border-radius(10px);
+            @include box-shadow(darkgrey);
+            p {
+                text-indent: 4em;
+                line-height: 1.5em;
+                padding-bottom: 1em;
+            }
+        } // content
+    } // section
 }
 
 header {
@@ -43,7 +67,7 @@ header {
         margin: 0 5%;
     }
 
-     div.name {
+    div.name {
         float: left;
         font-size: 150%;
         padding: 1.5em 0;
@@ -68,6 +92,7 @@ header {
 }
 
 footer {
+    clear: both;
     font-size: 10px;
     color: grey;
     padding: 3px;
