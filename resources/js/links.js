@@ -53,9 +53,9 @@ var highlight = function(listToHighlight, event){
 
 document.addEventListener('DOMContentLoaded', function(){
     document.querySelector('[href$="do.html"]').addEventListener('click',
-        highlight.bind(null, ['software engineering', 'be devoted', 'work @ Inkling']), true);
+        highlight.bind(null, ['software engineering', 'be devoted', 'Exciting stuff!']), true);
     document.querySelector('[href$="make.html"]').addEventListener('click',
-        highlight.bind(null, ['web wizardy', 'This website', 'projects']), true);
+        highlight.bind(null, ['javascript wizardry', 'This website', 'projects']), true);
     document.querySelector('[href$="contact.html"]').addEventListener('click',
         highlight.bind(null, ['me@kerryck.com']), true);
 }, true);
