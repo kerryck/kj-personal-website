@@ -6,7 +6,7 @@
 
 @include global-reset;
 
-$section-width: 740px;
+$section-width: 780px;
 
 @font-face {
   font-family: Purisa;
@@ -16,24 +16,24 @@ $section-width: 740px;
 html { height: 100%; }
 
 body {
-    background-color: #D3dfD3;
+    background-color: #EDEFF4;
     height: 100%;
     text-align: center;
-
+    padding: 0 10% ;
     section {
         clear: both;
-        width: $section-width;
+        max-width: $section-width;
         margin: 0 auto;
         text-align: left;
         a { color: black; text-decoration: none; }
-        
+
         .link-list {
             background: #37DC74;
-            height: 35px;
             position: relative;
             width: 109%;
             left: -4.5%;
             text-align: center;
+            margin: 0 0 7px 0;
             &:before, &:after {
                 content: " ";
                 border-style: solid;
@@ -42,7 +42,7 @@ body {
                 width: 0;
                 position: absolute;
                 z-index: -1;
-                top: 21px;
+                bottom: -15px;
             }
             &:before {
                 border-color: transparent #203d2b transparent transparent;
@@ -50,9 +50,9 @@ body {
             }
             &:after {
                 border-color: transparent transparent transparent #203d2b;
-                left: 791px;
+                right: -15px;
             }
-            li { 
+            li {
                 font-family: Purisa;
                 display: inline-block;
                 padding: 7px;
@@ -63,7 +63,6 @@ body {
             }
         }
         #content {
-            width: 100%;
 
             font-size: 20px;
             font-family: "Trebuchet MS", Georgia, Verdana, Arial, sans-serif;
@@ -82,15 +81,15 @@ body {
 }
 
 header {
+    margin: 0 -8%;
     div {
         width: 150px;
-        margin: 0 5%;
     }
 
     div.name {
         float: left;
         font-size: 150%;
-        padding: 1.5em 0;
+        padding: 34px 0;
     }
 
     div.bicepts {
@@ -102,9 +101,9 @@ header {
     nav {
         font-size:18px;
         padding-top: 3em;
-        display: inline-block;
         a {
             color: black;
+            display: inline-block;
         }
     }
 

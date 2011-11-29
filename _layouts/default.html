@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="generator" content="Jekyll" />
     <meta name="author" content="{{site.author}}"/>
     <meta name="description" content="{{site.description}}" />
 
@@ -24,14 +23,14 @@
         <div class="name">
             {{site.author}}
         </div>
-
+        <div class="bicepts">
+        </div>
         <nav>
             {% for thing in site.thingsi %}
                 <a href="{{thing.url}}">{{thing.name}}</a>
             {% endfor %}
         </nav>
-        <div class="bicepts">
-        </div>
+
 
     </header>
     <section>
@@ -47,7 +46,7 @@
                 </li>
             {% endfor %}
         </ul>
-        
+
     </article>
     </section>
     <footer>Last updated: {{ site.time | date: "%B %d, %Y"}}</footer>
