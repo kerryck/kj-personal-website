@@ -6,13 +6,13 @@ pygments: true
 
 thingsi:
     - name: things i do
-      url: /do.html
+      url: "#do"
 
     - name: things i make
-      url: /make.html
+      url: "#make"
 
     - name: my contact
-      url: /contact.html
+      url: "#contact"
 
 sociallinks:
     - name: Twitter

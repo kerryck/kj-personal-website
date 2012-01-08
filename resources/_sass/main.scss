@@ -118,8 +118,14 @@ footer {
 }
 
 mark {
-    background: rgba(255, 0, 0, 0);
-    @include transition(background 1s ease-in);
+    background: rgba(0, 0, 0, 0);
+    @include transition(background 0.25s ease-in);
+}
+
+.highlight-do .do,
+.highlight-make .make,
+.highlight-contact .contact {
+    background: rgba(55, 220, 116, 0.7);
 }
 
 
