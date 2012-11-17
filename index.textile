@@ -5,9 +5,9 @@ permalink: /
 
 h2. Hello World!
 
-I'm Kerryck Jones, a <mark class="do">software engineering</mark> student at the University of Waterloo. I just finished up my second workterm of javascript wizardry @ "Inkling":http://www.inkling.com and I'm currently enjoying my last school term. I will be joining the real world of work in April. <mark class="do">Exciting stuff!</mark>
+I'm Kerryck Jones. I recently completed a <mark class="do">software engineering</mark> degree from the University of Waterloo (w00t!). I'm currently taking some time off before starting work @ <a href="http://www.inkling.com">Inkling</a> where I'll be back to doing web wizardry. <mark class="do">Exciting stuff!</mark>
 
-If you're looking for me this term I will probably be in a lab somewhere building a <mark class="make">"Joos compiler":http://www.student.cs.uwaterloo.ca/~cs444/</mark> or finishing up my <mark class="make">forth year design project</mark>. Either that or I'll be in the gym training for <mark class="do">parkour</mark> and playing <mark class="do">intramurals</mark> with my fellow software engineers.
+Other exciting stuff: I'm planning on biking across Canada and down too San Francisco this summer. <mark class="do">Training</mark> is going well and the rest time allows for some spare hours to tackle <mark class="make">a few side projects</mark> I've been meaning to take a stab at.
 
 If you have any questions ping <mark class="contact">me@kerryck.com</mark>
 
