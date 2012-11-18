@@ -5,9 +5,9 @@ permalink: /
 
 h2. Hello World!
 
-I'm Kerryck Jones. I recently completed a <mark class="do">software engineering</mark> degree from the University of Waterloo (w00t!). I'm currently taking some time off before starting work @ <a href="http://www.inkling.com">Inkling</a> where I'll be back to doing web wizardry. <mark class="do">Exciting stuff!</mark>
+I'm Kerryck Jones. It's been a busy year. I graduated as a software engineer from the University of Waterloo. I biked across Canada on a pilgrimage to San Francisco where I have currently started working @ <a href="http://www.inkling.com">Inkling</a>. Exciting stuff!
 
-Other exciting stuff: I'm planning on biking across Canada and down too San Francisco this summer. <mark class="do">Training</mark> is going well and the rest time allows for some spare hours to tackle <mark class="make">a few side projects</mark> I've been meaning to take a stab at.
+Otherwise I'm still doing <a href="http://baparkour.ning.com/events">parkour</a>. Still <a href="https://github.com/kerryck">coding</a> for kicks. Oh and I've recently been taking an <a href="https://class.coursera.org/modernpoetry/class/index">online poetry course</a>. It's a slight departure from engineering studies but also quite <a href="http://www.writing.upenn.edu/~afilreis/88v/encounter.html">The Encounter.</a>
 
 If you have any questions ping <mark class="contact">me@kerryck.com</mark>
 

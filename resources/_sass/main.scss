@@ -3,6 +3,7 @@
 @import "compass/css3/border-radius";
 @import "compass/css3/box-shadow";
 @import "compass/css3/transition";
+@import "compass/css3/shared";
 
 @include global-reset;
 
@@ -11,6 +12,24 @@ $section-width: 780px;
 @font-face {
   font-family: Purisa;
   src: url(/resources/fonts/Purisa.ttf) format("truetype");
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @-o-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
 }
 
 html { height: 100%; }
@@ -86,10 +105,17 @@ header {
         width: 150px;
     }
 
-    div.name {
+    .llap {
         float: left;
-        font-size: 150%;
-        padding: 34px 0;
+        background-image: url('../img/live-long-and-prosper.png');
+        height: 100px;
+        width: 100px;
+        @include experimental(animation-name, rotate);
+        @include experimental(animation-duration, 10s);
+        @include experimental(animation-iteration-count, infinite);
+        @include experimental(animation-timing-function, linear);
+        -moz-animation-name: rotate;
+
     }
 
     div.bicepts {
@@ -98,17 +124,20 @@ header {
         background-image: url('../img/HTML5cepts_small.png');
     }
 
-    nav {
-        font-size:18px;
-        padding-top: 3em;
-        a {
-            color: black;
-            display: inline-block;
-        }
+    div.title {
+        font-size:23px;
+        padding-top: 2em;
+        margin: auto;
+        width: 500px;
     }
 
     font-family: Purisa;
 }
+@include keyframes(rotate) {
+    from {@include experimental(transform, rotate(0deg));}
+    to {@include experimental(transform, rotate(360deg));}
+}
+
 
 footer {
     clear: both;

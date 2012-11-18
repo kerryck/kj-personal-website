@@ -1,4 +1,4 @@
-/* line 17, ../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../home/kerryck/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -15,50 +15,50 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-body {
+/* line 22, ../../../../../../home/kerryck/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
   line-height: 1;
 }
 
-/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../home/kerryck/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../home/kerryck/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../home/kerryck/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../home/kerryck/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../home/kerryck/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../home/kerryck/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../home/kerryck/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -68,31 +68,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   src: url(/resources/fonts/Purisa.ttf) format("truetype");
 }
 
-/* line 16, ../_sass/main.scss */
+/* line 35, ../_sass/main.scss */
 html {
   height: 100%;
 }
 
-/* line 18, ../_sass/main.scss */
+/* line 37, ../_sass/main.scss */
 body {
   background-color: #EDEFF4;
   height: 100%;
   text-align: center;
   padding: 0 10%;
 }
-/* line 23, ../_sass/main.scss */
+/* line 42, ../_sass/main.scss */
 body section {
   clear: both;
   max-width: 780px;
   margin: 0 auto;
   text-align: left;
 }
-/* line 28, ../_sass/main.scss */
+/* line 47, ../_sass/main.scss */
 body section a {
   color: black;
   text-decoration: none;
 }
-/* line 30, ../_sass/main.scss */
+/* line 49, ../_sass/main.scss */
 body section .link-list {
   background: #37DC74;
   position: relative;
@@ -101,7 +101,7 @@ body section .link-list {
   text-align: center;
   margin: 0 0 7px 0;
 }
-/* line 37, ../_sass/main.scss */
+/* line 56, ../_sass/main.scss */
 body section .link-list:before, body section .link-list:after {
   content: " ";
   border-style: solid;
@@ -112,81 +112,199 @@ body section .link-list:before, body section .link-list:after {
   z-index: -1;
   bottom: -15px;
 }
-/* line 47, ../_sass/main.scss */
+/* line 66, ../_sass/main.scss */
 body section .link-list:before {
   border-color: transparent #203d2b transparent transparent;
   left: -15px;
 }
-/* line 51, ../_sass/main.scss */
+/* line 70, ../_sass/main.scss */
 body section .link-list:after {
   border-color: transparent transparent transparent #203d2b;
   right: -15px;
 }
-/* line 55, ../_sass/main.scss */
+/* line 74, ../_sass/main.scss */
 body section .link-list li {
   font-family: Purisa;
   display: inline-block;
   padding: 7px;
 }
-/* line 59, ../_sass/main.scss */
+/* line 78, ../_sass/main.scss */
 body section .link-list li a {
   color: black;
   text-decoration: none;
 }
-/* line 65, ../_sass/main.scss */
+/* line 84, ../_sass/main.scss */
 body section #content {
   font-size: 20px;
   font-family: "Trebuchet MS", Georgia, Verdana, Arial, sans-serif;
   background: white;
   padding: 3%;
-  -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
-  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
   -ms-border-radius: 10px;
-  -khtml-border-radius: 10px;
+  -o-border-radius: 10px;
   border-radius: 10px;
   border: 1px solid darkgrey;
 }
-/* line 74, ../_sass/main.scss */
+/* line 93, ../_sass/main.scss */
 body section #content p {
   text-indent: 4em;
   line-height: 1.5em;
   padding-bottom: 1em;
 }
 
-/* line 83, ../_sass/main.scss */
+/* line 102, ../_sass/main.scss */
 header {
   margin: 0 -8%;
   font-family: Purisa;
 }
-/* line 85, ../_sass/main.scss */
+/* line 104, ../_sass/main.scss */
 header div {
   width: 150px;
 }
-/* line 89, ../_sass/main.scss */
-header div.name {
+/* line 108, ../_sass/main.scss */
+header .llap {
   float: left;
-  font-size: 150%;
-  padding: 34px 0;
+  background-image: url("../img/live-long-and-prosper.png");
+  height: 100px;
+  width: 100px;
+  -webkit-animation-name: rotate;
+  -moz-animation-name: rotate;
+  -ms-animation-name: rotate;
+  -o-animation-name: rotate;
+  animation-name: rotate;
+  -webkit-animation-duration: 10s;
+  -moz-animation-duration: 10s;
+  -ms-animation-duration: 10s;
+  -o-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -moz-animation-name: rotate;
 }
-/* line 95, ../_sass/main.scss */
+/* line 121, ../_sass/main.scss */
 header div.bicepts {
   float: right;
   height: 116px;
   background-image: url("../img/HTML5cepts_small.png");
 }
-/* line 101, ../_sass/main.scss */
-header nav {
-  font-size: 18px;
-  padding-top: 3em;
-}
-/* line 104, ../_sass/main.scss */
-header nav a {
-  color: black;
-  display: inline-block;
+/* line 127, ../_sass/main.scss */
+header div.title {
+  font-size: 23px;
+  padding-top: 2em;
+  margin: auto;
+  width: 500px;
 }
 
-/* line 113, ../_sass/main.scss */
+@-webkit-keyframes rotate {
+  /* line 137, ../_sass/main.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 138, ../_sass/main.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotate {
+  /* line 137, ../_sass/main.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 138, ../_sass/main.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes rotate {
+  /* line 137, ../_sass/main.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 138, ../_sass/main.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes rotate {
+  /* line 137, ../_sass/main.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 138, ../_sass/main.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  /* line 137, ../_sass/main.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 138, ../_sass/main.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* line 142, ../_sass/main.scss */
 footer {
   clear: both;
   font-size: 10px;
@@ -194,16 +312,16 @@ footer {
   padding: 3px;
 }
 
-/* line 120, ../_sass/main.scss */
+/* line 149, ../_sass/main.scss */
 mark {
   background: rgba(0, 0, 0, 0);
-  -moz-transition: background 0.25s ease-in;
   -webkit-transition: background 0.25s ease-in;
+  -moz-transition: background 0.25s ease-in;
   -o-transition: background 0.25s ease-in;
   transition: background 0.25s ease-in;
 }
 
-/* line 127, ../_sass/main.scss */
+/* line 156, ../_sass/main.scss */
 .highlight-do .do,
 .highlight-make .make,
 .highlight-contact .contact {
